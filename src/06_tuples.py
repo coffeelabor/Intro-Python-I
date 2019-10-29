@@ -36,7 +36,6 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 
 # YOUR CODE HERE
 def print_tuple(tup):
-    for i in tup
     print(tup)
 
 t = (1, 2, 5, 7, 99)
