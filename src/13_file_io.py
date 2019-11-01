@@ -21,9 +21,9 @@ print("##############################")
 
 # YOUR CODE HERE
 with open('bar.txt', 'r+') as b:
-    b.write('heres the first line')
-    b.write('heres the second line')
-    b.write('heres the third line')
+    b.write('heres the first line \n')
+    b.write('heres the second line \n')
+    b.write('heres the third line \n')
     print(b.read())
 
 b.closed
