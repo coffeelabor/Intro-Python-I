@@ -22,3 +22,21 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+# userInput = input("Enter a date: ")
+# inputString = str(userInput)
+# print(userInput)
+# print(inputString)
+userInput = 0
+thisMonth = datetime.today().month
+thisYear = datetime.today().year
+def userCal(*args):
+  # params = int(args)
+  # print(params)
+  if(len(args) == 0):
+    print(calendar.month(thisYear, thisMonth))
+  elif(args[1] == False):
+    print(calendar.month(thisYear, args[1]))
+userCal(0)
+# print(calendar.month(thisYear, thisMonth))
+# print(thisMonth)
